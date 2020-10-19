@@ -12,19 +12,51 @@ main {
     background-color: grey;
 }
 
-.card-class {
-    border: 2px solid black;
-    height: 300px;
-    width: 450px;
-    background-color:white;
+.wrapperbody {
+align-content:center ;
 }
 
+
+.card-class {
+    display: flex;
+    align-items: center;
+    border: 2px groove black;
+    height: 300px;
+    width: 550px;
+    background-color:seashell;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+
+.btnSetUp {
+    display: grid;
+    margin: 4px;
+}
+
+.btnLabel {
+    align-items: center;
+}
 .WelBackH1 {
 text-align: center;
 }
 .container-buttons {
     background-color:greenyellow;
     border: 1px solid black;
+    text-align:center;
+    
+}
+
+.properPreper {
+text-align: center;
+}
+
+#wrapperNav{
+    justify-content: space-between;
+    color: seashell;
+}
+
+.navbar-right{
+    color: seashell;
 }
 
 footer {
